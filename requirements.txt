@@ -29,7 +29,7 @@ realtime==1.0.0   # Supabase realtime lib (required by supabase and enforced to 
 
 # async http requests
 # avoid v3.10.0 as it is failing CI (<class 'RuntimeError'>: aiodns needs a SelectorEventLoop on Windows. See more: https://github.com/saghul/aiodns/issues/86)
-aiohttp==3.9.5
+aiohttp==3.10.11
 
 # Experimental to prevent httpx.PoolTimeout
 httpcore==0.17.3  # to up to at least 1.0.2 (prevent default version when installing httpx which creates httpx.PoolTimeout)
